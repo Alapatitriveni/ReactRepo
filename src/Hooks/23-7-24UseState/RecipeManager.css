@@ -1,0 +1,55 @@
+/* RecipeManager.css */
+.recipe-manager {
+    padding: 20px;
+}
+
+.form {
+    margin-bottom: 20px;
+}
+
+.form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-all {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.recipe-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.recipe-table th, .recipe-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.recipe-table th {
+    background-color: #f2f2f2;
+}
+
+.recipe-table button {
+    padding: 5px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

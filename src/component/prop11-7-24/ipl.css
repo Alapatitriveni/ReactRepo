@@ -1,0 +1,25 @@
+.Data{
+  
+    border: 2px solid black;
+     width: 300px;
+     margin:10px;
+     
+    background-color:rgb(211, 133, 174); 
+}
+.style{
+    display: flex;
+    gap:240px;
+    color: white;
+    background-color: rgb(9, 156, 241);
+}
+.Ipl{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.ipl2{
+     background-color: brown; 
+    color: white;
+    height: 50px;
+    padding: 10px;
+    margin: 5px;
+}

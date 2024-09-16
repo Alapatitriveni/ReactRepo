@@ -1,11 +1,15 @@
-const Heading1=()=>{
+
+  const Heading1=(props)=>{
+    const {Text}=props
     return(
-        <h1>This is a heading1</h1>
+        <h1>{Text}</h1>
     )
 }
-export const Heading2=()=>{
+export const Heading2=(props)=>{
+   
+    const {Text}=props
     return(
-        <h1>This is a heading2</h1>
+        <h1>{Text}</h1>
     )
 
 }
